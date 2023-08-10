@@ -8,10 +8,10 @@ body {
     align-items: column;
     justify-content: center;
     height: 100%;
-    background-color: pink;
+    background-color: brown;
 }
 .page1 {
-    padding-left: 150px;
+    padding-left: 220px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -20,17 +20,18 @@ body {
     display: flex;
 }
 .container {
-    width: 400px;
+    width: 410px;
     background: #fff;
     border-radius: 5px;
     text-align: center;
     padding: 5px 5px 2px 5px;
+    height: 500px;
 }
 
 
 .photo1 {
-    height: 600px;
-    width: 600px;
+    height: 510px;
+    width: 500px;
 }
 
 /* .container header {
@@ -86,11 +87,15 @@ form .page .field select {
     padding-left: 10px;
     font-size: 17px;
 }
+.f1 {
+    display: flex;
+    padding: 25px 25px 5px 6px;
+}
 
-.form-outer form .page .field button {
+/* .form-outer form .page */.field-button { 
     width: 100%;
     height: calc(100% + 5px);
-    margin-top: -20px;
+    margin-top: 30px;
     border: none;
     background: #d43f8d;
     color: #fff;
@@ -99,6 +104,7 @@ form .page .field select {
     letter-spacing: 1px;
     text-transform: uppercase;
     cursor: pointer;
+    padding-bottom: 10px;
     
 }
 .form-outer form .page .field button:hover {
@@ -140,10 +146,6 @@ form .page .btns button .next {
 .d {
     padding: 20px;
     display: flex;
-}
-
-.e {
-    border: none;
 }
 
 

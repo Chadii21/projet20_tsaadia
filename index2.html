@@ -15,7 +15,7 @@
 <div class="page1">
   <div class="section1">
     <div class="right i1">
-      <img id="" class="photo1" src="b1.jpg" alt="">
+      <img id="" class="photo1" src="picture.jpg" alt="">
     </div>
  
     <div class="container">
@@ -30,52 +30,88 @@
           <i class="fas fa-dot-circle fa-2x  step2"></i>
           <i class="fas fa-dot-circle  fa-2x step3"></i>
         </div> -->
-        <div class="form-outer">
-          <form action="#">
+        <!-- <div class="form-outer">
+          <form action="#" class="myForm">
             <div class="page">
-              <div class="title">
+              <div class="title"> -->
                 <div class="c">
                   <h>Please fill with your details :</h>
                 </div>
-              </div>
+              <!-- </div>
               <div class="field">
+                
                 <div class="d">
+                  <br>
+                  <span class="error"></span>
                   <div class="label" class="e"></div>
-                  <input type="text" placeholder="First Name" />
+                  <input type="text" class="myInput" placeholder="First Name" />
+                <!-- </form>
+                <form id="myForm"> 
+                  <br>
+                  <span class="error"></span>
                   <div class="e" class="label"></div>
-                  <input type="text" placeholder="Last Name" />
+                  <input type="text" class="myInput" placeholder="Last Name" />
+                
+                 
                   <div class="label" class="e" for="Email"></div>
                 </div>
               </div>
               <div class="field">
                 <div class="d">
                   <div class="label"></div>
-                  <input type="email" placeholder="Your email" />
+                  <input type="email" class="myInput" placeholder="Your email" />
+                  <br>
+                  <span class="error"></span>
                   <div class="label" class="e" for="Phone number"></div>
-                  <input type="tel" placeholder="Phone Number" />
+                  <input type="tel" class="myInput" placeholder="Phone Number" />
+                  <br>
+                  <span class="error"></span>
                 </div>
               </div>
+              
+            
               <div class="field">
                 <div class="d">
                   <div class="label" class="e" for="Age"></div>
-                  <input type="number" placeholder="Age" />
+                  <input type="number" class="myInput" placeholder="Age" />
+                  <br>
+                  <span class="error"></span>
                   <div class="label" for=""></div>
                   <input type="radio" name="gender" value="female" />
                   Female
                   <div class="label" for=""></div>
-                  <input type="radio" name="gender" value="male" />
+                  <input type="radio" class="myInput" name="gender" value="male" />
                   Male
-                </div>
+                </div><br>
+                <span class="error"></span>
+                
               </div>
           </form>
           <div class="field btn">
-            <button class="prev-1 prev">SUBMIT</button>
+            <button class="prev-1 prev" type="submit">SUBMIT</button>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</div> -->
+
+<form id="inscription">
+<div class="f1">
+<input type="First Name" name="First" placeholder="First Name" id="First">
+<input type="Last Name" name="Last" placeholder="Last Name" id="Last"> <br></div>
+<div class="f1">
+<input type="email" name="Email" placeholder="Email" id="hg">
+<input type="number" name="Number" placeholder="Number" id="Number"> <br></div>
+<div class="f1">
+<input type="number" name="Age" placeholder="Age" id="Age">
+<input type="radio" placeholder="Male" required class="">Male
+<input type="radio" placeholder="Female" required class="">Female <br></div>
+<div class="f1">
+<input type="Your country" name="country" placeholder="country" id="country"> <br></div>
+<input type="submit" value="SUBMIT" class="field-button">
+</form>
+<p style="color: crimson;" id="erreur"></p>
 
  <script src="index.js"></script>
 </body>
