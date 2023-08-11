@@ -12,8 +12,8 @@ body {
 }
 .page1 {
     padding-left: 220px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .section1 {
     height: 100%;
@@ -22,15 +22,14 @@ body {
 .container {
     width: 410px;
     background: #fff;
-    border-radius: 5px;
     text-align: center;
     padding: 5px 5px 2px 5px;
-    height: 500px;
+    height: 555px;
 }
 
 
 .photo1 {
-    height: 510px;
+    height: 562px;
     width: 500px;
 }
 
@@ -91,8 +90,12 @@ form .page .field select {
     display: flex;
     padding: 25px 25px 5px 6px;
 }
+/* .f2 {
+    
+    padding: 25px 5px 6px 6px;
+} */
 
-/* .form-outer form .page */.field-button { 
+/* .form-outer form .page */.fieldButton { 
     width: 100%;
     height: calc(100% + 5px);
     margin-top: 30px;
